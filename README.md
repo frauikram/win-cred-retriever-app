@@ -1,33 +1,52 @@
-# win-cred-retriever-app
+# Win Credential Retriever App
 
-© 2025 frauikram : Windows Credential Retriever App
-A lightweight Python CLI tool to list and retrieve Windows Credential Manager Generic Credentials.
+© 2025 [frauikram](https://github.com/frauikram)
 
-## Features
- - List all stored Generic Credentials.
- - Retrieve the password/token for any Generic Credential.
- - Windows-only, works fully offline.
- - MIT Licensed for personal or commercial use.
+A lightweight **Windows Credential Retriever App** to **list and retrieve Generic Credentials** stored in Windows Credential Manager.
 
-## Requirements
+---
 
-- Windows OS
-- Python 3.8+
-- No external dependencies
+## 🚀 Features
 
-## Usage
+✅ List all stored Generic Credentials.  
+✅ Retrieve the password/token for any Generic Credential.  
+✅ Works fully offline on Windows.  
+✅ MIT Licensed for personal or commercial use.
+
+---
+
+## 📥 Download
+
+Download the latest `.exe` from the [Releases page](https://github.com/frauikram/win-cred-retriever-app/releases) to run without Python.
+
+---
+
+## 🖥️ Usage (Python CLI)
+
+> Requires Windows OS, Python 3.8+, no external dependencies.
+
+List all Generic Credentials:
 
 ```bash
-# List all Generic Credentials
 python listcred_cli_tool.py --list
+```
 
-# Get a credential's value by name
+Get a credential's value by name:
+
+```bash
 python listcred_cli_tool.py --get "<credname>"
 ```
+
 Returns the stored password or secret for the provided credential name.
 
-## Author:  
-© 2025 github.com/frauikram
+---
 
-## License
-MIT
+## 🪪 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+© 2025 [frauikram](https://github.com/frauikram)
